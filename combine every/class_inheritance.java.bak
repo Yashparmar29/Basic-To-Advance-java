@@ -1,0 +1,55 @@
+import java.util.Scanner;
+class book
+{
+	int book_id[] = {1,2,3,4,5,6,7,8,9,10};
+	String book_name[] = new String[10];
+	int qty[] = {10,19,16,37,23,14,18,15,11,29};
+	
+	book()
+	{
+		book_name[0] = "To Kill a Mockingbird";
+	book_name[1] = "the harry potter";
+	book_name[2] = "you and me";
+	book_name[3] = "mother";
+	book_name[4] = "84";
+	book_name[5] = "Harry Potter and the Philosopher Stone";
+	book_name[6] = "The Alchemist";
+	book_name[7] = "The Catcher in the Rye";
+	book_name[8] = "The Da Vinci Code";
+	book_name[9] = "To Kill a Mockingbird";
+		System.out.println(" Book id " + " Book name " + " Quantity " );
+		for(int i=0;i<10;i++)
+		{
+			System.out.println(book_id[i] +" " + book_name[i] + " " + qty[i] + " ");
+		}
+	}
+}
+public class student
+{
+	Scanner sc = new Scanner(System.in);
+	int uid;
+	varchar uname;
+	student()
+	{
+		System.out.print("enter user id :- ");
+		uid = sc.nextInt();
+		System.out.print("enter user name :- ");
+		uname = sc.next();
+	}
+	void show()
+	{
+		System.out.print("----user details ----");
+		System.out.print("user id :- " + uid);
+		System.out.print("user name :- " + uname);
+	}
+	
+}
+public class class_inheritance
+{
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+		book b = new book();
+		
+    }
+}

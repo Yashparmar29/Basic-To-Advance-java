@@ -1,0 +1,30 @@
+import java.util.*;
+public class uis extends Exception
+{
+	public uis(String message)
+	{
+		super(message);
+	}
+}
+public class user_ex_age 
+{
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("enter your age :- ");
+        int age = sc.nextInt();
+        
+		try
+		{
+			if(age < 18)
+			{
+				throw new uis("you have minor so you can not voting");
+			}
+			System.out.print("you have voting");
+		}
+		catch(uis e)
+		{
+			System.out.print("your age is low for voting.");
+		}
+    }    
+}
