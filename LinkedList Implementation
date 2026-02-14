@@ -1,0 +1,26 @@
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class QueueExample {
+    public static void main(String[] args) {
+
+        // Create Queue
+        Queue<Integer> queue = new LinkedList<>();
+
+        // Add elements
+        queue.add(10);
+        queue.add(20);
+        queue.add(30);
+        queue.add(40);
+
+        System.out.println("Queue: " + queue);
+
+        // Remove element (FIFO)
+        System.out.println("Removed: " + queue.remove());
+
+        // Peek element (front element)
+        System.out.println("Front element: " + queue.peek());
+
+        System.out.println("Queue after operations: " + queue);
+    }
+}
