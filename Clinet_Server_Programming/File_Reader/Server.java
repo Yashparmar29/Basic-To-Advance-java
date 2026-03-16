@@ -24,13 +24,13 @@ public class Server
         {
             BufferedReader br = new BufferedReader(new FileReader(f_name));
             String line;
-            String res;
+            StringBuffer res = new StringBuffer();
             while((line = br.readLine()) != null)
             {
-
-                res = line ;
-                dos.writeUTF(res); 
+                res.append(line).append("\n");
             }
+            String m = res.toString();
+            dos.writeUTF(m);
         }
         catch(Exception e)
         {
