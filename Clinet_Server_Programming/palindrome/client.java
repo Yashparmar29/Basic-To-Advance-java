@@ -16,7 +16,7 @@ public class client
         System.out.print("Enter String :- ");
         String data = sc.next();
 
-        
+        dos.writeUTF(data);
 
         String res = dis.readUTF();
 
