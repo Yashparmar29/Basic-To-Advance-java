@@ -4,9 +4,7 @@ import java.util.*;
 
 class method extends Frame implements ActionListener
 {
-    Label lbl_id,lbl_name,lbl_sub,lbl_mark;
-    TextField txt_name,txt_id,txt_sub,txt_mark;
-    Button btn_enter;
+    
 
     method()
     {
