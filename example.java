@@ -28,10 +28,7 @@ class student
         {
             System.out.println("C");
         }
-        else if(marks > 40 && marks < 50)
-        {
-            System.out.println("D");
-        }
+       
         else if(marks > 33 && marks < 40)
         {
             System.out.println("E");
