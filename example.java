@@ -48,8 +48,6 @@ public class example
     {
         System.out.print("Enter 0 / 1 :- ");
         int n = sc.nextInt();
-
-     //   int no = 1;
         
         while(true)
         { 
