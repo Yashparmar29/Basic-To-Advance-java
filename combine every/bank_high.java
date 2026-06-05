@@ -1,5 +1,13 @@
 import java.util.*;
+class lowbalanceexception extends Exception
+{
 
+    public lowbalanceexception(String s) 
+    {
+        super(s);
+    }
+    
+}
 
 class user
 {
