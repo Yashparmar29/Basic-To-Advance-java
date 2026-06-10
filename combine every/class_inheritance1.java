@@ -24,7 +24,7 @@ class book
 		}
 	}
 }
-public class student
+class student
 {
 	Scanner sc = new Scanner(System.in);
 	int uid;
