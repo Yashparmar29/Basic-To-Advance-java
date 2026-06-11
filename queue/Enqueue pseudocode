@@ -1,0 +1,20 @@
+void enqueue(int data) {
+    if (rear == queue.length - 1)
+        System.out.println("Overflow");
+    else {
+        if (front == -1)
+            front = 0;
+
+        queue[++rear] = data;
+    }
+}
+
+Enqueue → Rear
+
+Front                  Rear
+  ↓                      ↓
++----+----+----+----+
+| 10 | 20 | 30 | 40 |
++----+----+----+----+
+
+Dequeue ← Front
