@@ -1,0 +1,18 @@
+void dequeue() {
+    if (front == -1 || front > rear)
+        System.out.println("Underflow");
+    else {
+        System.out.println("Deleted: " + queue[front]);
+        front++;
+    }
+}
+
+Enqueue → Rear
+
+Front                  Rear
+  ↓                      ↓
++----+----+----+----+
+| 10 | 20 | 30 | 40 |
++----+----+----+----+
+
+Dequeue ← Front
